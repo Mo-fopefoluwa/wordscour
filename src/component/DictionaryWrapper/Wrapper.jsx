@@ -20,7 +20,7 @@ const Wrapper = () => {
   console.log(results);
 
   return (
-    <div className="container mx-auto px-10 dark:bg-black h-[100vh]">
+    <div className="container mx-auto px-10 dark:bg-black">
       <nav className="py-2 h-14 flex flex-row items-center">
         <h2 className="text-indigo-700 text-2xl font-bold">WordScour</h2>
       </nav>
