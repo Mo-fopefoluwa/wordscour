@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = ({ partOfSpeech, definitions, synonyms }) => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-black w-full">
       <div className="my-3">
         <div className="flex flex-row items-center text-lg font-bold font-serif dark:text-white">
           <p>{partOfSpeech}</p>
