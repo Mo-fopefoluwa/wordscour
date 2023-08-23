@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = ({ partOfSpeech, definitions, synonyms }) => {
   return (
-    <div className="dark:bg-black w-full">
+    <div className="dark:bg-black">
       <div className="my-3">
         <div className="flex flex-row items-center text-lg font-bold font-serif dark:text-white">
           <p>{partOfSpeech}</p>
@@ -27,7 +27,7 @@ const Content = ({ partOfSpeech, definitions, synonyms }) => {
           </ul>
           <p className="mt-4 text-gray-800 dark:text-gray-400 text-sm font-semibold">
             Synonyms:{" "}
-            <span className="text-indigo-500 flex flex-row gap-4 mt-2">
+            <span className="text-indigo-500 flex flex-row flex-wrap pb-8 gap-4 mt-2">
               {synonyms.map((item, index) => (
                 <p key={index}>{item}</p>
               ))}
