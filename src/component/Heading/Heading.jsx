@@ -27,7 +27,7 @@ const Heading = ({ results }) => {
         </div>
         <button
           onClick={playAudio}
-          className="bg-indigo-300 h-12 w-12 rounded-full text-[2rem]"
+          className="bg-indigo-300 h-12 w-12 rounded-full text-[2rem] dark:text-white"
         >
           <i class="bx bx-play"></i>
         </button>
