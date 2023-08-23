@@ -21,14 +21,14 @@ const Wrapper = () => {
 
   return (
     <div className="container mx-auto px-10 dark:bg-black h-[100vh]">
-      <nav className="my-2 h-14 flex flex-row items-center">
+      <nav className="py-2 h-14 flex flex-row items-center">
         <h2 className="text-indigo-700 text-2xl font-bold">WordScour</h2>
       </nav>
       <input
         type="text"
         value={word}
         onChange={(e) => setWord(e.target.value)}
-        className="w-[80%] bg-gray-100 border-none 
+        className="w-full bg-gray-100 border-none 
           outline-none rounded-lg px-3 py-4 shadow-sm"
       />
       <button
