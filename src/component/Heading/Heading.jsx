@@ -14,7 +14,7 @@ const Heading = ({ results }) => {
   };
 
   return (
-    <div>
+    <div className="dark:bg-black">
       <div className="flex flex-row justify-between my-5">
         <div>
           <h3 className="font-bold text-3xl font-serif capitalize dark:text-white">

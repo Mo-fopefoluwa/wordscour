@@ -29,7 +29,7 @@ const Wrapper = () => {
         value={word}
         onChange={(e) => setWord(e.target.value)}
         className="w-full bg-gray-100 border-none 
-          outline-none rounded-lg px-3 py-4 shadow-sm"
+          outline-none rounded-lg mt-6 px-3 py-4 shadow-sm"
       />
       <button
         onClick={searchWord}
