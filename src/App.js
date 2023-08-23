@@ -4,7 +4,7 @@ import Wrapper from "./component/DictionaryWrapper/Wrapper";
 
 function App() {
   return (
-    <div>
+    <div className="dark:bg-black ">
       <Wrapper />
     </div>
   );
